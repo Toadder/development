@@ -1331,23 +1331,11 @@ body._lock {
 
 .crm-video__video {
   position: relative;
+  border-radius: 5px;
 }
 
 .crm-video__video img {
   max-width: 100%;
-}
-
-.crm-video__play {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  z-index: 1;
-  -webkit-transition: opacity 0.3s ease 0s;
-  -o-transition: opacity 0.3s ease 0s;
-  transition: opacity 0.3s ease 0s;
 }
 
 .crm-task {
@@ -3398,11 +3386,6 @@ body._lock {
     margin-bottom: 35px;
   }
 
-  .crm-video__play {
-    width: 37px;
-    height: 37px;
-  }
-
   .crm-task {
     padding-bottom: 45px;
   }
@@ -3711,10 +3694,6 @@ body._lock {
 
   .popup__close:hover {
     color: #3c5bff;
-  }
-
-  .crm-video__play:hover {
-    opacity: .8;
   }
 
   .item-crmtask:hover {
